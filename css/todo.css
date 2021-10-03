@@ -1,0 +1,72 @@
+#todo-button {
+  position: absolute;
+  bottom: 20px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#todo-button h2 {
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+#todo-button h3 {
+  font-size: 13px;
+}
+
+/*todo-content*/
+#todo-content {
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 30px;
+  border-radius: 10px;
+}
+#todo-content form input {
+  width: 300px;
+  padding: 10px 5px;
+  margin-bottom: 40px;
+}
+
+#todo-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.todo-list__content {
+  /*li 태그에 적용*/
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px 0px;
+  border-radius: 20px;
+}
+.todo-list__content h2 {
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+}
+.todo-list__content span {
+  position: absolute;
+  right: 20px;
+}
+.btnShow {
+  visibility: hidden;
+}
+.line {
+  text-decoration: line-through;
+}

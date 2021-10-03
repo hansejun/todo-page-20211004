@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="web">
+      <div id="first-form">
+          <form id="login-form">
+              <h2>Login</h2>
+              <input type="text" id="username" placeholder="Username">
+              <button id="btn">Login</button>
+          </form>
+      </div>  
+      <div id="main" class="hidden">
+          <header>
+            <h2 id="login-id"></h2> <span>To-do List</span>
+          </header>
+          <div id="time-clock"> 
+              <div id="clock">
+                  <div id="clock-monthDate">
+                      <div id="clock-monthDate__content">
+                          <h2 id="clock-monthDate__content-month"></h2>
+                          <h3>MONTHS</h3>
+                      </div>
+                      <div id="clock-monthDate__content">
+                          <h2 id="clock-monthDate__content-date"></h2>
+                          <h3>DAYS</h3>
+                      </div>
+                  </div>
+                  <h2 id="clock-day"></h2>
+                  <div id="clock-time">
+                      <div id="clock-time__content">
+                          <h2 id="clock-time__content-hours"></h2>
+                          <h3>HOURS</h3>
+                      </div>
+                      <div id="clock-time__content">
+                          <h2 id="clock-time__content-minutes"></h2>
+                          <h3>MINUTES</h3>
+                      </div>
+                      <div id="clock-time__content">
+                          <h2 id="clock-time__content-seconds"></h2>
+                          <h3>SECONDS</h3>
+                      </div>
+                  </div>
+              </div>
+              <div id="weather">
+                  <h2></h2>
+                  <h2></h2>
+                  <h2></h2>
+              </div>
+          </div>
+          <div id="todo-button">
+            <h2>Click</h2>
+            <h3>Here</h3>
+          </div>
+          <div id="todo-content" class="hidden">
+              <form>
+                <input type="text" placeholder="Write here">
+              </form> 
+              <div id="todo-list">
+                  
+              </div>
+          </div>
+      </div>
+  </div>
+    <script src="js/weather.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+</body>
+</html>

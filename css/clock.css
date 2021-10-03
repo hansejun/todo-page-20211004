@@ -1,0 +1,90 @@
+#main{
+  color:white;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 60px;
+  padding:20px 0px 20px 0px;
+  width: 100%;
+  background-color: black;
+  color:white;
+  text-align: center;
+  box-shadow:inset 2px 2px 10px rgba(0,0,0,0.2),inset -2px -2px 10px rgba(0,0,0,0.2);
+  position:relative;
+}
+header #login-id{
+  position:absolute;
+  right:20px;
+  font-size:18px;
+}
+#clock{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#clock-monthDate{
+  display: flex;
+}
+#clock-monthDate__content{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 30px;
+}
+#clock-monthDate__content:first-child{
+  border-right: 1px solid rgba(255,255,255,0.3);
+}
+#clock-monthDate__content h2{
+  font-size: 45px;
+}
+#clock-monthDate__content h3{
+  font-size:13px;
+}
+#clock-time{
+  display:flex;
+}
+#clock-time__content{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 30px;
+}
+#clock-time__content:first-child,#clock-time__content:nth-child(2){
+  border-right: 1px solid rgba(255,255,255,0.3);
+}
+#clock-time__content h2{
+  font-size:30px;
+}
+#clock-time__content h3{
+  font-size: 13px;
+}
+#clock-day{
+  margin: 30px 0px;
+}
+
+/* weather */
+#weather{
+  display: flex;
+  justify-content: center ;
+  margin-top:30px;
+  padding:15px 0px;
+  border-top: 1px solid rgba(255,255,255,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+#weather h2{
+  width:33%;
+  text-align: center;
+}
+#wwather h2:nth-child(2){
+  border-right:1px solid rgba(255,255,255,0.3);
+}
